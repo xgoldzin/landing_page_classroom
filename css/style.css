@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#pheader {
+    float: center;
+    padding: 25px 25px 25px 25px;
+    text-align: right;
+}
+#figureheader {
+    float: left;
+}
+/* header {
+
+} */
+#pheader>a {
+    padding: 25px;
+}
+#appdow {
+    display: inline-block;
+    width: 20%;
+}
+.appdow {
+    float: right;
+}
