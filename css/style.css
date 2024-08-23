@@ -1,12 +1,18 @@
 * {
     margin: 0px;
     padding: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #pheader {
     float: center;
     padding: 25px 25px 25px 25px;
     text-align: right;
+    background-color: #ffffff;
 }
+/* header {
+    background-color: #9f7314;
+} */
 #figureheader {
     float: left;
 }
@@ -23,3 +29,59 @@
 .appdow {
     float: right;
 }
+.função {
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+    padding: 20px;
+    border: 5px solid rgb(0, 0, 0);
+}
+.divg {
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+    padding: 20px;
+    border: 5px solid rgb(0, 0, 0);
+}
+#divfun {
+    text-align: center;
+}
+/* julio */
+.ceo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.ceo > h1 {
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.ceo > h2 {
+    padding-left: 14px;
+}
+.ceo > p {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    text-align: justify;
+}
+.ceo > img {
+    width: 280px;
+    margin: 8px;
+}
+/*fim julio */
+
+.endnewcon>article{
+    width: 33%;
+    display: inline-block;
+    
+}
+
+.endnewcon{
+    width: 100%px;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: ;
+}
+
