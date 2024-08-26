@@ -3,6 +3,7 @@
     padding: 0px;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 #pheader {
     float: center;
@@ -47,34 +48,31 @@
     text-align: center;
 }
 /* julio */
-.ceo {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-}
-.ceo > article {
-    background-color: rgb(49, 202, 240);
-    width: 400px;
-    height: 430px;
-    border-radius: 10px;
-    transform: translate(130%, 115%);
-}
-.ceo > h1 {
-    margin-left: 15px;
-    padding-top: 10px;
-}
-.ceo > h2 {
-    padding-left: 14px;
-}
-.ceo > p {
-    display: inline-block;
-    padding: 5px;
-    margin: 5px;
-    width: 200px;
-    text-align: justify;
-}
+
+
 .ceo > img {
-    width: 280px;
-    margin: 8px;
+    height: auto;
+    width: 200px; 
+    margin: 15px 10px; 
+    border-radius: 5%; 
+    object-fit: cover;
+    border: 3px solid rgb(8, 86, 187);
+}
+.histor, .coment {
+    background-color: rgb(136, 214, 245); 
+    margin: 10px; 
+    padding: 15px; 
+    border-radius: 8px; 
+    border: 2px solid black;
+}
+
+
+
+.coment h2 {
+    margin-top: 0; 
+}
+.coment p {
+    margin-bottom: 15px;
 }
 /*fim julio */
 
